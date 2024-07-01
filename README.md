@@ -10,7 +10,7 @@ Aplicación que consume datos de una API de WordPress y los muestra usando una i
    - Abre la terminal (o línea de comandos) en tu sistema.
    - Clona este repositorio a tu máquina local usando Git:
      ```
-     git clone https://github.com/tu-usuario/tu-proyecto.git
+     git clone https://github.com/AsbelTorales/NotesApp-WordPress.git
      ```
    
 2. **Instalar Dependencias:**
