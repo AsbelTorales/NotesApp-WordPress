@@ -16,7 +16,7 @@ Aplicación que consume datos de una API de WordPress y los muestra usando una i
 2. **Instalar Dependencias:**
     - Navega al directorio del proyecto usando la consola:
      ```
-     cd tu-proyecto
+     cd my-app
      
      ```
  - Instala las dependencias necesarias usando npm:
