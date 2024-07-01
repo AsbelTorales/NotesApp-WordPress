@@ -19,7 +19,7 @@ Aplicación que consume datos de una API de WordPress y los muestra usando una i
      cd my-app
      
      ```
- - Instala las dependencias necesarias usando npm:
+    - Instala las dependencias necesarias usando npm:
      ```
      npm install
      npm install axios
