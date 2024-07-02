@@ -3,6 +3,9 @@ Aplicación que consume datos de una API de WordPress y los muestra usando una i
 
 ## Instrucciones para Ejecutar el Proyecto
 
+**Se tiene que tener instalado node.js**
+
+
  **API de WordPress:**
    - Este proyecto utiliza la API de WordPress del sitio [fernandafamiliar.soy](https://fernandafamiliar.soy) para obtener las últimas 10 notas publicadas.
 
@@ -19,8 +22,10 @@ Aplicación que consume datos de una API de WordPress y los muestra usando una i
      cd my-app
      
      ```
+
     - Instala las dependencias necesarias usando npm:
      ```
+
      npm install
      npm install axios
      npm install @mui/material @emotion/react @emotion/styled
