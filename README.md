@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# NotesApp-WordPress
+Aplicación que consume datos de una API de WordPress y los muestra usando una interfaz creada con React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Instrucciones para Ejecutar el Proyecto
 
-## Available Scripts
+ **API de WordPress:**
+   - Este proyecto utiliza la API de WordPress del sitio [fernandafamiliar.soy](https://fernandafamiliar.soy) para obtener las últimas 10 notas publicadas.
 
-In the project directory, you can run:
+1. **Clonar Repositorio:**
+   - Abre la terminal (o línea de comandos) en tu sistema.
+   - Clona este repositorio a tu máquina local usando Git:
+     ```
+     git clone https://github.com/AsbelTorales/NotesApp-WordPress.git
+     ```
+   
+2. **Instalar Dependencias:**
+    - Navega al directorio del proyecto usando la consola:
+     ```
+     cd my-app
+     
+     ```
+    - Instala las dependencias necesarias usando npm:
+     ```
+     npm install
+     npm install axios
+     npm install @mui/material @emotion/react @emotion/styled
+     npm i date-fns
+     
+     ```
 
-### `npm start`
+3. **Ejecutar la Aplicación:**
+    - Inicia la aplicación React usando la consola:
+     ```
+     npm start
+     ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. **Ver la Aplicación:**
+   - Abre tu navegador web y navega a `http://localhost:3000` para ver la aplicación.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Estado y Efectos
+1. **Persistencia de Datos:**
+   - Las notas obtenidas se almacenan en el almacenamiento local del navegador, asegurando que persistan entre sesiones.
 
-### `npm test`
+2. **Marcado de Notas como leídas o completadas**
+   - Se pueden marcar las notas como leídas una por una o marcar todas como leídas dandole click al botón de la parte superior que dice 'Marcar todas como leídas'.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Notas Adicionales
+- Asegurarse de tener una conexión a Internet activa para acceder a la API de WordPress.
+- La interfaz de usuario está diseñada para ser responsive y puede adaptarse a diferentes tamaños de pantalla.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
